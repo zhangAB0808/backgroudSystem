@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a4b1747-8929-4422-a065-3a91656e837b" name="Default Changelist" comment="后台管理系统">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/后台管理系统.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/1ef10ec157de432c9922cbab1c1fa0b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/2e8a12c9c54d4827a85c8f6995577032.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/6e521b9a5771481ba911deeaab73b046.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/885d3f288a7d4223a827f207388b34b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/SpringbootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/common/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/common/RoleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/config/CORSConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/config/interceptor/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/config/interceptor/JwtInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/controller/EchartsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/controller/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/controller/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/entity/RoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/entity/SysDict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/entity/SysFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/entity/SysMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/entity/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/entity/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/exception/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/mapper/RoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/mapper/SysDictMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/mapper/SysFileMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/mapper/SysMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/mapper/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/service/RoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/service/SysDictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/service/SysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/service/SysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/service/impl/RoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/service/impl/SysDictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/com/zhang/utils/TokenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/resources/mapper/RoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/resources/mapper/SysDictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/resources/mapper/SysFileMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/resources/mapper/SysMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/resources/mapper/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/test/java/com/zhang/SpringbootApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/assets/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/components/Aside.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/components/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/File.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/Manage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/Menu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/People.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/Role.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/src/views/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="29H2lgVKottHzj4tJMEVRbclZbj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhang.SpringbootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a4b1747-8929-4422-a065-3a91656e837b" name="Default Changelist" comment="" />
+      <created>1652755842532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652755842532</updated>
+      <workItem from="1652755844253" duration="488000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="后台管理系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台管理系统" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1652756267781">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1652756267781" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1652756094429">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1652756094429" />
+    <state x="546" y="142" width="425" height="326" key="Github.ShareDialog" timestamp="1652755978782">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="546" y="142" width="425" height="326" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1652755978782" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1652756339544">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1652756339544" />
+  </component>
+</project>
